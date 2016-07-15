@@ -5,10 +5,36 @@
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
  */
 
-module.exports = {
+ module.exports = {
 
-  attributes: {
-
-  }
-};
-
+   attributes: {
+     nombre: {
+       type: 'string',
+       required: true
+     },
+     descripcion: {
+       type: 'string',
+       required: true
+     },
+     horario: {
+       type: 'string',
+       required: true
+     },
+     contacto: {
+       type: 'string',
+       required: true
+     },
+     nota: {
+       type: 'integer',
+       required: true
+     },
+     time: {
+       type: 'datetime',
+       required: true
+     },
+     id_mapa_ref: {
+       model: 'mapa',
+       required: true
+     }
+   }
+ };

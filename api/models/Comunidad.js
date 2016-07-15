@@ -5,10 +5,12 @@
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
  */
 
-module.exports = {
+ module.exports = {
 
-  attributes: {
-
-  }
-};
-
+   attributes: {
+     nombre: {
+       type: 'string',
+       required: true
+     }
+   }
+ };

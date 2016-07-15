@@ -5,10 +5,24 @@
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
  */
 
-module.exports = {
+ module.exports = {
 
-  attributes: {
-
-  }
-};
-
+   attributes: {
+     user: {
+       model: 'user',
+       required: true
+     },
+     message: {
+       type: 'string',
+       required: true
+     },
+     time: {
+       type: 'datetime',
+       required: true
+     },
+     comunidad: {
+       model: 'comunidad',
+       required: true
+     }
+   }
+ };
