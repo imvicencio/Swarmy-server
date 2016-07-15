@@ -17,11 +17,11 @@
        required: false
      },
      lat: {
-       type: 'string',
+       type: 'float',
        required: true
      },
      lng: {
-       type: 'string',
+       type: 'float',
        required: true
      }
    }
