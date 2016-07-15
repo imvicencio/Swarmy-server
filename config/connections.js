@@ -33,9 +33,14 @@ module.exports.connections = {
   },
 
 
-  productionMongoHqDb: {
+  devMongoHqDb: {
     adapter: 'sails-mongo',
     url: "mongodb://isma:isma@ds025180.mlab.com:25180/swarmydb"
+  },
+
+  productionMongoHqDb: {
+    adapter: 'sails-mongo',
+    url: "mongodb://isma:isma@ds011902.mlab.com:11902/swarmyprod"
   }
 
 
