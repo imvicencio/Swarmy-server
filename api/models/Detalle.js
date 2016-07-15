@@ -16,7 +16,7 @@
        type: 'datetime',
        required: false
      },
-     comunidad: {
+     comunidad_id: {
        model: 'comunidad',
        required: true
      },
