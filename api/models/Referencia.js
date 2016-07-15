@@ -30,7 +30,7 @@
      },
      time: {
        type: 'datetime',
-       required: true
+       required: false
      },
      id_mapa_ref: {
        model: 'mapa',

@@ -8,20 +8,20 @@
  module.exports = {
 
    attributes: {
-     nombre {
+     nombre: {
        type: 'string',
        required: true
      },
      time: {
        type: 'datetime',
-       required: true
+       required: false
      },
      lat: {
-       type: 'datetime',
+       type: 'string',
        required: true
      },
      lng: {
-       type: 'datetime',
+       type: 'string',
        required: true
      }
    }

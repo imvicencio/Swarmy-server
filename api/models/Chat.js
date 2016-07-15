@@ -18,7 +18,7 @@
      },
      time: {
        type: 'datetime',
-       required: true
+       required: false
      },
      comunidad: {
        model: 'comunidad',
