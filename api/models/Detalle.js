@@ -17,7 +17,7 @@
        required: false
      },
      comunidad_id: {
-       model: 'comunidad',
+       type: 'float',
        required: true
      },
      detalle: {
