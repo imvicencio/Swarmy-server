@@ -11,6 +11,10 @@
      nombre: {
        type: 'string',
        required: true
+     },
+     detalle: {
+       type: 'string',
+       required: true
      }
    }
  };
