@@ -32,6 +32,13 @@ module.exports.connections = {
     adapter: 'sails-disk'
   },
 
+
+  productionMongoHqDb: {
+    adapter: 'sails-mongo',
+    url: "mongodb://isma:isma@ds025180.mlab.com:25180/swarmydb"
+  }
+
+
   /***************************************************************************
   *                                                                          *
   * MySQL is the world's most popular relational database.                   *

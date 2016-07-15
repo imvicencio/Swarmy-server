@@ -17,27 +17,21 @@ module.exports = {
    * environment (see config/connections.js and config/models.js )           *
    ***************************************************************************/
 
-  // models: {
-  //   connection: 'someMongodbServer'
-  // }
+   models: {
+     connection: 'productionMongoHqDb'
+   }
 
 
-  connections: {
-    localMongodbServer: {
-      adapter: 'sails-mongo',
+  //connections: {
+    //localMongodbServer: {
+      //adapter: 'sails-mongo',
       //host: 'ds064718.mlab.com',
       //port: 64718,
       //user: 'isma',
       //password: 'isma',
       //database: 'swarmy2'
-      url: "mongodb://isma:isma@ds025180.mlab.com:25180/swarmydb"
-    }
-  },
-
-  session: {
-    adapter: 'mongo',
-    url: "mongodb://isma:isma@ds025180.mlab.com:25180/swarmydb",
-    collection: 'sessions'
-  }
+      //url: "mongodb://isma:isma@ds025180.mlab.com:25180/swarmydb"
+    //}
+  //}
 
 };

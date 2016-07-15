@@ -35,4 +35,10 @@ module.exports = {
   //   level: "silent"
   // }
 
+
+  models: {
+    connection: 'productionMongoHqDb'
+  }
+
+
 };
