@@ -17,7 +17,7 @@
        required: false
      },
      comunidad_id: {
-       type: 'float',
+       type: 'string',
        required: true
      },
      detalle: {

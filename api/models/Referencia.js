@@ -33,7 +33,7 @@
        required: false
      },
      id_mapa_ref: {
-       model: 'mapa',
+       type: 'string',
        required: true
      }
    }

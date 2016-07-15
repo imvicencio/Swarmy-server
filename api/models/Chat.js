@@ -9,7 +9,7 @@
 
    attributes: {
      user: {
-       model: 'user',
+       type: 'string',
        required: true
      },
      message: {
@@ -21,7 +21,7 @@
        required: false
      },
      comunidad: {
-       model: 'comunidad',
+       type: 'string',
        required: true
      }
    }
